@@ -1,0 +1,31 @@
+#header{
+    display: block;
+    text-align: center;
+    background-color: black;
+    font: 1em sans-serif;
+    color: rgb(253, 253, 253);
+    
+
+}
+
+#LOGO{
+    width: 100px;
+    height: 100px;
+    padding-right: 20px;
+    position: relative;
+}
+
+#Menu{
+    font: 1em sans-serif;
+    position: relative;
+    box-shadow: black;
+    text-align: right;
+}
+
+#About_Us{
+    font: 1em sans-serif;
+    position: relative;
+    box-shadow: black;
+    text-align: right;
+
+}
