@@ -6,8 +6,8 @@
 
 
 #LOGO{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     position: relative;
     top: 0;
     left: 0;
@@ -16,46 +16,43 @@
 
     
 }
-#header{
-    display: block;
-    text-align: center;
-    font: 20 sans-serif;
-    block-size: 75px;
-    margin: 0;
-    background-color: black;
-    color: white;
-    z-index: 1;
+
 
         
     
 
-}
+
 #Menu{
-    font: 1em sans-serif;
+    font: 3em sans-serif;
     position: relative;
     text-align: right;
-    top: auto;
-    display: inline;
+background-color: black;
+    
+
     
     
     
 }
 
 #About_Us{
-    font: 1em sans-serif;
+    font: 3em sans-serif;
     position: relative;
     text-align: right;
-color: white;
-
+    background-color: black;
 }
+
+
 #Blurb{
     font-family: 'Times New Roman', Times, serif;
     font-size: 12;
     position: relative;
-    display: grid;
-    
+    left: 50vw;
     background-color: grey;
     width: 250px;
     height: 300px;
+    margin-inline-start: initial;
     
+}
+a{
+    background-color: grey;
 }
