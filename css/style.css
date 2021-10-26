@@ -26,19 +26,9 @@
     font: 3em sans-serif;
     position: relative;
     text-align: right;
-background-color: black;
-    
-
+background-color: black;   
     
     
-    
-}
-
-#About_Us{
-    font: 3em sans-serif;
-    position: relative;
-    text-align: right;
-    background-color: black;
 }
 
 
@@ -46,16 +36,34 @@ background-color: black;
     font-family: 'Times New Roman', Times, serif;
     font-size: 12;
     position: relative;
-    left: 50vw;
-    background-color: grey;
-    width: 250px;
-    height: 300px;
-    margin-inline-start: initial;
-    
+    color: white;
+    max-width: 700px;
+    max-height: 350px;
+    padding-left: 20%;
+   
+}
+
+
+#Blurb-2{
+    position: absolute;
+    font-size: 14;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding-left: 20%;
+    max-width: 700px;
+    max-height: 50px;
+    display: block;
 }
 #Phone{
-    background-color: grey;
+    position:absolute;
+    padding-left: 20%;
+    color: tomato;
 
+
+    
+}
+#Phone:active{
+    color: yellow;
 }
 #Items{
     color: white;
@@ -132,5 +140,10 @@ background-color: black;
     #Cheese{
         width: 200px;
         height: 190px;
+    }
+    #Blurb{
+        font-size: 16;
+
+        
     }
 }
