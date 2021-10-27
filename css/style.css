@@ -33,6 +33,39 @@
 }
 
 
+#interior1{
+    position: relative;
+    width: 0;
+    margin: 0;
+    
+
+}
+#kitchen2{
+    width: 200px;
+    position: relative;
+    margin: 0;
+}
+#interior2{
+    width: 200px;
+    position: relative;
+    margin: 0;
+}
+
+#kitchen1{
+    width: 200px;
+    position: relative;
+    margin: 0;
+
+}
+
+
+
+
+
+
+
+
+
 #Blurb{
     font-family: 'Times New Roman', Times, serif;
     font-size: 12;
