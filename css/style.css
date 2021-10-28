@@ -24,8 +24,9 @@
 #Menu{
     font: 3em sans-serif;
     position: relative;
-    text-align: right;
-    color: tomato;    
+    text-align: left;
+    color: tomato;  
+    left: 0%;
 }
 #Menu:active{
     color: yellow;
@@ -33,31 +34,7 @@
 
 
 
-#kitchen2{
-    position: relative;
-    width: 20%;
-    margin: 10px;
 
-}
-#interior1{
-    
-    position: relative;
-    width: 20%;
-    margin: 10px;
-
-}
-#interior2{
-    position: relative;
-    width: 20%;
-    margin: 10px;
-    
-}
-#kitchen1{
-    position: relative;
-    width: 20%;
-    margin: 10px;
-    
-}
 
 
 
@@ -77,6 +54,7 @@
     max-width: 700px;
     max-height: 350px;
     padding-left: 20%;
+    
    
 }
 
@@ -98,7 +76,7 @@
 #Footer{
     color: tomato;
     padding-left: 20%;
-    
+
 }
 
 
@@ -147,7 +125,6 @@
 #Chicken_wings{
     width: 90px;
     height: 80px;
-    flex-shrink: 0;
     object-fit: cover;
     margin-right: 1.5em;
 
@@ -155,7 +132,38 @@
 #chicken_description{
     color: white;
 
+
 }
+
+#mozza1{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 1.5em;
+
+}
+#Mozza_description{
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #Cheese{
     width: 125px;
     height: 115px;
@@ -179,6 +187,14 @@
         width: 200px;
         height: 190px;
     
+    }
+    #chicken-description{
+        width: 200px;
+        height: 200px;
+    }
+    #Mozza_description{
+        width: 200px;
+        height: 200px;
     }
     #Cheese{
         width: 200px;
