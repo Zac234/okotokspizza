@@ -1,5 +1,6 @@
 *{
     background-color: black;
+     
 }
 
 
@@ -12,9 +13,7 @@
     top: 0;
     left: 0;
     background-color: black;
-    
 
-    
 }
 
 
@@ -33,23 +32,25 @@
 }
 
 
+
 #kitchen2{
     position: relative;
     width: 20%;
     margin: 10px;
 
-    
-
 }
 #interior1{
+    
     position: relative;
     width: 20%;
     margin: 10px;
+
 }
 #interior2{
     position: relative;
     width: 20%;
     margin: 10px;
+    
 }
 #kitchen1{
     position: relative;
@@ -94,9 +95,10 @@
 #Phone:active{
     color: yellow;
 }
-#Phone:visited{
-    color: green;
-
+#Footer{
+    color: tomato;
+    padding-left: 20%;
+    
 }
 
 
