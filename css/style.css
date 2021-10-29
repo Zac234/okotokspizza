@@ -96,7 +96,7 @@
 .menu{
     font-family: sans-serif;
     font-size: 14px;
-    grid-template-columns:8, 1fr;
+    grid-template-columns:repeat(8, 1fr);   
     
 }
 
@@ -109,7 +109,7 @@
 }
 
 .menu-group{
-    display:grid;
+    display:block;
     grid-template-columns: 4,1fr;
     gap: 1.5em;
     padding: 1.5em 0;
@@ -217,7 +217,16 @@
 #Meat_desription{
     color: white;
 }
-
+#Canadian{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 1.5em;
+    margin-left: 1.5em;
+}
+#Canadian_description{
+    color: white;
+}
 
 
 
@@ -231,6 +240,8 @@
 #footerblurb{
     color: tomato;
     text-decoration: underline;
+    bottom: 0;
+
 }
 
 @media screen and (min-width:992px){
@@ -266,11 +277,40 @@
     }
     #Cheese{
         width: 200px;
-        height: 190px;
+        height: 200px;
+    }
+    #cheese_description{
+        width: 200px;
+        height: 200px;   
+
+    }
+    #Pepp1{
+        width: 200px;
+        height: 200px;
+    }
+    #Pepp_description{
+        width: 200px;
+        height: 200px;
     }
     #Blurb{
         font-size: 16;
 
         
     }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
