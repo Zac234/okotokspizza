@@ -96,7 +96,8 @@
 .menu{
     font-family: sans-serif;
     font-size: 14px;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns:8, 1fr;
+    
 }
 
 .menu-group-heading{
@@ -109,12 +110,16 @@
 
 .menu-group{
     display:grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 4,1fr;
     gap: 1.5em;
     padding: 1.5em 0;
+    
+
+    
+
 }
 .menu-items{
-    display: flex;
+    display:flex;
 
 }
 .menu-item-heading{
@@ -150,12 +155,66 @@
 #calamari{
     width: 100px;
     height: 100px;
-    object-fit: cover;
+    object-fit:cover;
     margin-right: 1.5em;
     margin-left: 1.5em;
+    display: block;
+    
 
 }
 #calamari_desc{
+    color: white;
+}
+
+
+
+
+#Cheese{
+    width: 100px;
+    height: 100px;
+    margin-right: 1.5em;
+    object-fit: cover;
+}
+#cheese_description{
+    color: white;
+}
+#Pepp1{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+#Pepp_description{
+    color: white;
+}
+#hawaii{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+#Hawaii_description{
+    color: white;
+}
+#Supreme{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 1.5em;
+}
+#Supreme_description{
+    color: white;
+}
+#Meat{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+#Meat_desription{
     color: white;
 }
 
@@ -169,19 +228,6 @@
 
 
 
-
-
-
-
-
-
-#Cheese{
-    width: 125px;
-    height: 115px;
-    flex-shrink: 0;
-    margin-right: 1.5em;
-    object-fit: cover;
-}
 #footerblurb{
     color: tomato;
     text-decoration: underline;
