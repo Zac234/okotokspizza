@@ -96,7 +96,7 @@
 .menu{
     font-family: sans-serif;
     font-size: 14px;
-    grid-template-columns:repeat(8, 1fr);   
+    grid-template-columns: repeat( auto-fit, minmax(350px, 1fr));  
     
 }
 
@@ -110,7 +110,7 @@
 
 .menu-group{
     display:block;
-    grid-template-columns: 4,1fr;
+   
     gap: 1.5em;
     padding: 1.5em 0;
     
@@ -119,8 +119,9 @@
 
 }
 .menu-items{
-    display:flex;
-
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(auto-fill, 200px);
 }
 .menu-item-heading{
     color: white;
