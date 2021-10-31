@@ -15,12 +15,6 @@
     background-color: black;
 
 }
-
-
-        
-    
-
-
 #Menu{
     font: 3em sans-serif;
     position: relative;
@@ -31,20 +25,6 @@
 #Menu:active{
     color: yellow;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #Blurb{
     font-family: 'Times New Roman', Times, serif;
@@ -57,10 +37,6 @@
     
    
 }
-
-
-
-
 #Phone{
     font-size: 15px;
     padding-left: 20%;
@@ -76,6 +52,7 @@
 #Footer{
     color: tomato;
     padding-left: 20%;
+    bottom: 100%;
 
 }
 
@@ -96,7 +73,7 @@
 .menu{
     font-family: sans-serif;
     font-size: 14px;
-    grid-template-columns: repeat( auto-fit, minmax(350px, 1fr));  
+    grid-template-columns: repeat( auto-fill 200px)
     
 }
 
@@ -122,13 +99,16 @@
     display: grid;
     position: relative;
     grid-template-columns: repeat(auto-fill, 200px);
+   
 }
 .menu-item-heading{
     color: white;
 }
+
+
 #Chicken_wings{
-    width: 90px;
-    height: 80px;
+    width: auto;
+    max-height: 100px; 
     object-fit: cover;
     margin-right: 1.5em;
 
@@ -165,9 +145,8 @@
 }
 #calamari_desc{
     color: white;
+
 }
-
-
 
 
 #Cheese{
@@ -231,7 +210,12 @@
 
 
 
+#Lasagne{
+    object-fit: cover;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
 
+}
 
 
 
@@ -241,7 +225,7 @@
 #footerblurb{
     color: tomato;
     text-decoration: underline;
-    bottom: 0;
+    bottom: 100%;
 
 }
 
