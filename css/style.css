@@ -211,13 +211,60 @@
 
 
 #Lasagne{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+
+}
+#Lasgne_description{
+    color: white;
+
+}
+
+#Bolognese{
+    width: 100px;
+    height: 100px;
     object-fit: cover;
     margin-left: 1.5em;
     margin-right: 1.5em;
 
 }
 
+#Bolognese_description{
+    color: white;
 
+}
+#Fettucini{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+
+}
+
+#Fettuccini_description{
+    color: white;
+}
+
+#Soda1{
+    margin-right: 1.5em;
+    margin-left: 1.5em;
+
+}
+#Soda1_description{
+    color: white;
+}
+#Soda2{
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+
+}
+#Soda2_description{
+    color: white;
+}
 
 
 
